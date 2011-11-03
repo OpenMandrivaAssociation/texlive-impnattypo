@@ -1,3 +1,9 @@
+# revision 24057
+# category Package
+# catalog-ctan /macros/latex/contrib/impnattypo
+# catalog-date 2011-09-21 17:45:17 +0200
+# catalog-license lppl1.3
+# catalog-version 1.0
 Name:		texlive-impnattypo
 Version:	1.0
 Release:	1
@@ -44,6 +50,7 @@ by the French Imprimerie Nationale.
 #- source
 %doc %{_texmfdistdir}/source/latex/impnattypo/impnattypo.dtx
 %doc %{_texmfdistdir}/source/latex/impnattypo/impnattypo.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ by the French Imprimerie Nationale.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
