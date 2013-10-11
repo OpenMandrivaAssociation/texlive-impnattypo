@@ -1,12 +1,12 @@
-# revision 24057
+# revision 31076
 # category Package
 # catalog-ctan /macros/latex/contrib/impnattypo
-# catalog-date 2011-09-21 17:45:17 +0200
+# catalog-date 2013-06-17 21:07:33 +0200
 # catalog-license lppl1.3
-# catalog-version 1.0
+# catalog-version 1.1
 Name:		texlive-impnattypo
-Version:	1.0
-Release:	2
+Version:	1.1
+Release:	1
 Summary:	Support typography of l'Imprimerie Nationale FranASSaise
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/impnattypo
@@ -50,17 +50,3 @@ by the French Imprimerie Nationale.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
-+ Revision: 752735
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
-+ Revision: 718713
-- texlive-impnattypo
-- texlive-impnattypo
-- texlive-impnattypo
-- texlive-impnattypo
-
