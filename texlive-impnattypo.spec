@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-impnattypo
 Version:	1.1
-Release:	8
+Release:	9
 Summary:	Support typography of l'Imprimerie Nationale FranASSaise
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/impnattypo
