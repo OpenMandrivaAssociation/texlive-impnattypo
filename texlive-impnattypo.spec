@@ -1,12 +1,6 @@
-# revision 31076
-# category Package
-# catalog-ctan /macros/latex/contrib/impnattypo
-# catalog-date 2013-06-17 21:07:33 +0200
-# catalog-license lppl1.3
-# catalog-version 1.1
 Name:		texlive-impnattypo
-Version:	1.1
-Release:	9
+Version:	1.4
+Release:	1
 Summary:	Support typography of l'Imprimerie Nationale FranASSaise
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/impnattypo
@@ -33,13 +27,10 @@ by the French Imprimerie Nationale.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/impnattypo/impnattypo.sty
-%doc %{_texmfdistdir}/doc/latex/impnattypo/README
-%doc %{_texmfdistdir}/doc/latex/impnattypo/impnattypo-fr.pdf
-%doc %{_texmfdistdir}/doc/latex/impnattypo/impnattypo.pdf
+%{_texmfdistdir}/tex/latex/impnattypo
+%doc %{_texmfdistdir}/doc/latex/impnattypo
 #- source
-%doc %{_texmfdistdir}/source/latex/impnattypo/impnattypo.dtx
-%doc %{_texmfdistdir}/source/latex/impnattypo/impnattypo.ins
+%doc %{_texmfdistdir}/source/latex/impnattypo
 
 #-----------------------------------------------------------------------
 %prep
